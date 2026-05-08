@@ -11,3 +11,5 @@ Loot.BHFEGHEEFI = function(a1) --gets called when wpns menu gets opened, useful 
 
     return Loot_BHFEGHEEFI_Orig(a1)
 end
+-- Thank you pipes for the LUA Script All this code is his! (he told me i could use it!)
+-- SOON TO DO PATCH 16.GSC

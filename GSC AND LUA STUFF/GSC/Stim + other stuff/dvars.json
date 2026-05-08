@@ -1,0 +1,4 @@
+FROM RYGUY2COOL
+addbot (any int)
+botdifficulty (0 - 5)
+removebot(any int i think)

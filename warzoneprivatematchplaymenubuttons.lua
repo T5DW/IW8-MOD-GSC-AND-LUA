@@ -1,14 +1,17 @@
-local LUI_CoD_LuaCall_ExecuteNow = Engine.DAGFFDGFII
-local Dvar_GetInt = Dvar.CFHDGABACF
-local Get_DvarString = Dvar.DHEEJCCJBH
-local Dvar_SetString = Dvar.BDEHAEGHAF
-local IsDemoBuild = Engine.BGAAHHAGAC
-local Dvar_GetString = Dvar.DHEEJCCJBH
+local LUI_CoD_LuaCall_ExecuteNow = Engine.DAGFFDGFII -- thx pipes and laura!
+local Dvar_GetInt = Dvar.CFHDGABACF -- thx pipes and laura!
+local Get_DvarString = Dvar.DHEEJCCJBH -- thx pipes and laura!
+local Dvar_SetString = Dvar.BDEHAEGHAF -- thx pipes and laura!
+local IsDemoBuild = Engine.BGAAHHAGAC -- thx pipes and laura!
+local Dvar_GetString = Dvar.DHEEJCCJBH -- thx pipes and laura!
 
 -- Menus Menu
 function wyatts_wz_menus(menu, controller)
     local self = LUI.UIElement.new()
-    self.id = "wyatts_wz_menus"
+    self.id = "wyatts_wz_menus" -- my menus tab to go to certin menus 
+
+    -- TODO:
+    -- REWRITE wyatts_wz_settings
     
     local controllerIndex = controller or 0
     

@@ -11,9 +11,7 @@ MenuBuilder.registerTypeOverride("PrivateMatchLobbyButtons", function(buildOrigi
             controllerIndex = self:getRootController()
         end
 
-        ----------------------------------------------------------------
-        -- SAFE BUTTON CREATOR
-        ----------------------------------------------------------------
+       -- button creator so the menu doesnt crash 
         local function CreateButton(text)
             local btn = MenuBuilder.BuildRegisteredType("GenericButton", {
                 controllerIndex = controllerIndex
@@ -34,9 +32,7 @@ MenuBuilder.registerTypeOverride("PrivateMatchLobbyButtons", function(buildOrigi
             return btn
         end
 
-        ----------------------------------------------------------------
-        -- OVERDRIVE BUTTON
-        ----------------------------------------------------------------
+      -- todo: remvoe this bc it was a old button from my old PrivateMatchLobbyButtons.lua file -_- i just forgot to do it ok...
         local overdriveBtn = CreateButton("OVERDRIVE")
 
         if overdriveBtn then
@@ -48,9 +44,7 @@ MenuBuilder.registerTypeOverride("PrivateMatchLobbyButtons", function(buildOrigi
             end)
         end
 
-        ----------------------------------------------------------------
-        -- MENU BUTTON (Opens wyatts_wz)
-        ----------------------------------------------------------------
+  -- opens my menu for MP and creates the MENU button for the Private match lobby!
         local menuBtn = CreateButton("MENU")
 
         if menuBtn then
